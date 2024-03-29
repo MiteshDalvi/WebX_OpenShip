@@ -1,0 +1,168 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: linear-gradient(135deg, #a1c4fd 0%, #c2e9fb 100%);
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+  
+  h1 {
+    margin-top: 1em;
+    color: #2a1602;
+    font-family: 'Cursive', sans-serif;
+    font-size: 3em;
+  }
+  
+  h2 {
+    color: #2c618c;
+  }
+  
+  /* form {
+    max-width: 300px;
+    margin: 20px auto;
+  }
+  
+  input[type="text"],
+  input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    width: 100%;
+    background-color: #fcdbbb;
+    color: white;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  } */
+  
+  button:hover {
+    background-color: #2c618c;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    background-color: #edb988;
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 4px;
+    margin:30px;
+  }
+  
+  li button {
+    background-color: #4b90c8;
+    margin-right: 10px;
+  }
+  
+  li button:hover {
+    background-color: #2c618c;
+  }
+  
+  body {
+    min-height: 100%;
+
+    font-family: 'Arial', sans-serif;
+    background-image: url(images/image.png);
+    background-size: cover;
+    background-position: left center;
+    background-repeat: no-repeat;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+  height: 100%;
+}
+  .content-area {
+    background-color: rgba(255, 255, 255, 0.8); /* white with some transparency */
+    padding: 20px;
+    border-radius: 5px;
+  }
+
+  form {
+    max-width: 400px;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: calc(50% - 10px);
+    padding: 8px;
+    margin: 15px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+/* button {
+    width: 100%;
+    background-color: #2c5aeb;
+    color: white;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #003bfd;
+} */
+
+
+button {
+  width: calc(33.33% - 10px); /* Divide the width equally among the three buttons */
+  padding: 8px;
+  background-color: #2c5aeb;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 15px 0; /* Add margin to separate the buttons */
+}
+
+button:hover {
+  background-color: #003bfd;
+}
+
+
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #4b90c8;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
